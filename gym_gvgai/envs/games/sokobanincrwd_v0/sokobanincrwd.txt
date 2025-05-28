@@ -15,7 +15,7 @@ BasicGame key_handler=Pulse square_size=40
         avatar wall > stepBack
         box avatar  > bounceForward
         box wall box  > undoAll
-        box hole    > killSprite scoreChange=1
-        avatar > step scoreChange=-0.1
+        box hole    > killSprite scoreChange=10
+        avatar > step scoreChange=-1
     TerminationSet
         SpriteCounter stype=box limit=0 win=True scoreChange=100
